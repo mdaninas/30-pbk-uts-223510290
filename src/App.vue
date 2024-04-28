@@ -133,6 +133,7 @@ p {
 }
 
 section {
+  position: relative;
   background-color: darkgray;
   width: 40%;
   height: 100%;
@@ -140,17 +141,17 @@ section {
   border-radius: 15px;
 }
 ul {
+  position: absolute;
+  width: 100%;
   list-style-type: none;
-  height: 100%;
+  max-height: 70%;
+  overflow: auto;
 }
 ul li {
   text-align: left;
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 8%;
-
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 ul li button {
   margin-right: 20px;
