@@ -144,7 +144,7 @@ ul {
   position: absolute;
   width: 100%;
   list-style-type: none;
-  max-height: 70%;
+  max-height: 75%;
   overflow: auto;
 }
 ul li {
