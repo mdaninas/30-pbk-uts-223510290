@@ -2,6 +2,8 @@
 import { ref, watch } from "vue";
 import Todolist from './components/Todol.vue'
 import Postlist from './components/Post.vue'
+import Todobut from "./components/Todobut.vue";
+import Postbut from "./components/Postbut.vue";
 const page = ref(true)
 const userlink = 'https://jsonplaceholder.typicode.com/users'
 const userlinkdetail = 'https://jsonplaceholder.typicode.com/users/'
@@ -51,8 +53,8 @@ fetchUsers();
 <template>
   <span class="navbar">
     <ul class="nav">
-      <li><button @click="changepagetodo">TO DO LIST</button></li>
-      <li><button @click="changepagepost">POST</button></li>
+      <li><button @click="changepagetodo"><Todobut /></button></li>
+      <li><button @click="changepagepost"><Postbut /></button></li>
     </ul>
   </span>
   <div class="wrapper" v-if="page">
