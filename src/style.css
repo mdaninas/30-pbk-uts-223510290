@@ -16,6 +16,8 @@
   padding-left: 10px;
   padding-bottom: 10px;
 }
+
+
 .kosong{
   position: relative;
   padding-top: 35%;
@@ -47,7 +49,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  position: relative;
+  
+  padding-top: 100px;
 }
 .isielse {
   height: 70%;
@@ -171,6 +174,10 @@ ul li input {
   margin-left: 20px;
   transform: scale(2);
 }
+.judulpost{
+  align-self: center;
+  margin-left: 210px;
+}
 .judul {
   margin-bottom: 10px;
   font-size: 40px;
@@ -251,4 +258,10 @@ button:active {
 form {
   display: flex;
   justify-content: space-around;
+}
+.ff{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: italic;
 }
